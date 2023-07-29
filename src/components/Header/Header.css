@@ -92,3 +92,6 @@ header .navigations a {
     display: block;
   }
 }
+.active {
+  color: hsl(300, 87%, 39%) !important;
+}
