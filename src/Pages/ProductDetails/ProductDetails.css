@@ -22,24 +22,7 @@ img {
 
   border: solid 20px hsla(146, 33%, 92%, 1);
 }
-.card {
-  padding: 20px;
-  width: 50%;
-  margin: 50px;
-  box-sizing: border-box;
-  float: left;
 
-  border-radius: 20px;
-
-  padding-top: 10px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  transition: 0.4s;
-  background: white;
-}
-.card:hover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  transform: translate(0px, -8px);
-}
 p {
   color: hsla(0, 1%, 15%, 0.6);
   padding-top: 0 8px;
@@ -67,14 +50,4 @@ h6 {
 
 .oldPrice {
   text-decoration: line-through;
-}
-@media (max-width: 1000px) {
-  .card {
-    flex: 0 0 45%; /* Change the width for responsive layout */
-  }
-}
-@media (max-width: 750px) {
-  .card {
-    flex: 0 0 100%; /* Change the width for mobile layout */
-  }
 }
